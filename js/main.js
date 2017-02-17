@@ -11,9 +11,7 @@ $(function(){
     $('input').addClass('error');
   });
 
-  $('input').on('hover', function() {
+  $('input').hover(function() {
     $('input').removeAttr('class');
   });
-
-
 });
